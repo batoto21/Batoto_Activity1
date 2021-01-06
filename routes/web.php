@@ -13,8 +13,4 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get ('/addition', function () {
-     return 1+2;
-});
-
-Route::get(‘/displaythesum', 'MyfirstController@index');
+Route::get('/displaythesum', 'MyfirstController@index');
