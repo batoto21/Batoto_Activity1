@@ -14,9 +14,8 @@ use Illuminate\Support\Facades\Route;
 */
 
 
-Route::get('/addition', function (){
-	$sum=5+2;
+Route::get('/multiply', function (){
 	
-	return ("The sum of 5 and 8 is 13.");
+	return ("The difference of 10 and 1 is 9.");
 	
 });
