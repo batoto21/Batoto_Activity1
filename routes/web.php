@@ -14,8 +14,8 @@ use Illuminate\Support\Facades\Route;
 */
 
 
-Route::get('/quotient', function (){
+Route::get('/numbers', function (){
 	
-	return ("The quotient of 10 and 2 is 5.");
+	return ("[1, 2, 3, 4, 5, 6, 7, 8, 9]");
 	
 });
