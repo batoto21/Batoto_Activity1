@@ -14,8 +14,8 @@ use Illuminate\Support\Facades\Route;
 */
 
 
-Route::get('/multiply', function (){
+Route::get('/product', function (){
 	
-	return ("The difference of 10 and 1 is 9.");
+	return ("The product of 3 and 2 is 6.");
 	
 });
