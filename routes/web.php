@@ -14,8 +14,8 @@ use Illuminate\Support\Facades\Route;
 */
 
 
-Route::get('/product', function (){
+Route::get('/quotient', function (){
 	
-	return ("The product of 3 and 2 is 6.");
+	return ("The quotient of 10 and 2 is 5.");
 	
 });
